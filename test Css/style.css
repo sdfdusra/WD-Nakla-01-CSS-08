@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+.testWrapper{
+    width: 1400px;
+    padding: 15px;
+    background-color: #ddd;
+    margin: 50px auto;
+}
+.box1{
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+.box1 ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+.box1 li a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: darkgreen;
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+.box1 ul li:last-child a{
+    border-right: none;
+}
+.box1 ul li:nth-child(4n+1) a{
+    background-color: blue;
+}
+/* .box1 ul li:first-child a{
+    background-color: red;
+}
+.box1 ul li:last-child a{
+    background-color: blue;
+} */
+/* .box1 ul li:nth-child(odd) a{
+    background-color: red;
+} */
+.box2{
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box2 p{
+    font-size: 24px;
+    line-height: 1.4;
+
+}
+.box2 p:first-line{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+.box2 p:first-letter{
+    color: crimson;
+    font-size: 45px;
+    font-weight: 700;
+}
